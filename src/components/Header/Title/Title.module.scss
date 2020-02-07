@@ -1,0 +1,12 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.title {
+  //@include margin-bottom(1);
+
+  font-size: $typographic-base-font-size * 2.0;
+  color: $typographic-base-font-color;
+  font-weight: normal;
+
+
+}

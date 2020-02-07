@@ -1,0 +1,37 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.post {
+  width: 100%;
+
+  &__footer {
+    max-width: $layout-post-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  &__comments {
+    max-width: $layout-post-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+}
+
+@include breakpoint-md {
+  .post {
+    padding: 0 30px 0 0;
+    -webkit-flex: 1;
+    flex: 1;
+
+    &__footer {
+      padding: 0;
+    }
+
+    &__comments {
+      padding: 0;
+    }
+
+  }
+
+}

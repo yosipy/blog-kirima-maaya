@@ -1,0 +1,30 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 2px solid rgb(87, 87, 87);
+    &__inner {
+        position: relative;
+        padding: 0px 0px;
+    }
+}
+
+@include breakpoint-sm {
+    .header {
+        width: 100%;
+        &__inner {
+            padding: 0;
+        }
+    }
+}
+
+@include breakpoint-md {
+    .sidebar {
+        width: 100%;
+        &__inner {
+            padding: 0px;
+        }
+    }
+}
