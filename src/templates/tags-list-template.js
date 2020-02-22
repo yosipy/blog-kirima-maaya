@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import MainAndSide from '../components/MainAndSide';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import Page from '../components/Page';
 import { useSiteMetadata, useTagsList } from '../hooks';
 
@@ -30,6 +31,7 @@ const TagsListTemplate = () => {
         </Page>
         <Sidebar />
       </MainAndSide>
+      <Footer />
     </Layout>
   );
 };

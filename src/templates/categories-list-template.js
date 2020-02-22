@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 import MainAndSide from '../components/MainAndSide';
 import Header from '../components/Header';
@@ -30,6 +31,7 @@ const CategoriesListTemplate = () => {
         </Page>
         <Sidebar />
       </MainAndSide>
+      <Footer />
     </Layout>
   );
 };

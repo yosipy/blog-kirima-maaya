@@ -21,7 +21,7 @@
 }
 
 @include breakpoint-md {
-    .sidebar {
+    .header {
         width: 100%;
         &__inner {
             padding: 0px;

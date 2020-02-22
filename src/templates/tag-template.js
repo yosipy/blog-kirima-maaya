@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import MainAndSide from '../components/MainAndSide';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
@@ -46,6 +47,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
         </Page>
         <Sidebar />
       </MainAndSide>
+      <Footer />
     </Layout>
   );
 };
