@@ -37,6 +37,7 @@ const createPages = async ({ graphql, actions }) => {
           node {
             frontmatter {
               template
+              series
             }
             fields {
               slug
@@ -60,7 +61,10 @@ const createPages = async ({ graphql, actions }) => {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/post-template.js'),
-        context: { slug: edge.node.fields.slug }
+        context: { 
+          slug: edge.node.fields.slug,
+          series: edge.node.frontmatter.series
+        }
       });
     }
   });

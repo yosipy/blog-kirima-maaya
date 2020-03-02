@@ -104,6 +104,12 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              maintainCase: false
+            }
+          },
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',

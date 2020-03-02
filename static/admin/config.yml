@@ -25,9 +25,41 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Category", name: "category", widget: "string"}
+      #- {label: "Category", name: "category", widget: "string"}
+      - label: "カテゴリ"
+        name: "category"
+        widget: "relation"
+        collection: "categories" # 別のcollectionのnameと一致させて紐づけ
+        searchFields: ["title"] # 選択する時に検索できるフィールド
+        valueField: "title" # 選択後に表示されるフィールド
+        displayFields: ["title"] # 選択中に一覧に表示されるフィールド
+      #- {label: "Tags", name: "tags", widget: "list"}
+      - label: "タグ"
+        name: "tags"
+        widget: "relation"
+        required: false
+        collection: "tags" # 別のcollectionのnameと一致させて紐づけ
+        searchFields: ["title"] # 選択する時に検索できるフィールド
+        valueField: "title" # 選択後に表示されるフィールド
+        displayFields: ["title"] # 選択中に一覧に表示されるフィールド
+        multiple: true # 複数選択可能
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - label: "連載"
+        name: "series"
+        widget: "relation"
+        default: ""
+        required: false
+        collection: "series" # 別のcollectionのnameと一致させて紐づけ
+        searchFields: ["title"] # 選択する時に検索できるフィールド
+        valueField: "title" # 選択後に表示されるフィールド
+        displayFields: ["title"] # 選択中に一覧に表示されるフィールド
+      - label: "連載番号"
+        name: "seriesNumber"
+        widget: "number"
+        min: 0
+        default: 1
+        valueType: "float"
+        step: 1
 
   - name: "pages"
     label: "Pages"
@@ -40,3 +72,24 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "categories"
+    label: "categories"
+    folder: "categories"
+    create: true
+    fields:
+      - { label: "カテゴリ名", name: "title", widget: "string" }
+
+  - name: "tags"
+    label: "tags"
+    folder: "tags"
+    create: true
+    fields:
+      - { label: "タグ名", name: "title", widget: "string" }
+
+  - name: "series"
+    label: "series"
+    folder: "series"
+    create: true
+    fields:
+      - { label: "連載名", name: "title", widget: "string" }

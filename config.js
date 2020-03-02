@@ -1,31 +1,31 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://codelabo.com',
   pathPrefix: '/',
-  title: 'Blog by kirima maaya',
+  title: 'CodeLabo',
   subtitle: 'programmer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 32,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: 'プログラミング',
+      path: '/category/プログラミング'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'ビジネス',
+      path: '/category/ビジネス'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'ブログ',
+      path: '/category/ブログ'
     }
   ],
   author: {
-    name: 'kirima maaya',
+    name: 'yosi',
     photo: '/photo.jpg',
     bio: 'programmer.',
     contacts: {

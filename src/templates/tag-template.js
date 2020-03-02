@@ -73,7 +73,7 @@ export const query = graphql`
             categorySlug
             thumbnail{
               childImageSharp {
-                fluid(maxWidth: 640, maxHeight: 480) {
+                fluid(maxWidth: 640, maxHeight: 360) {
                   ...GatsbyImageSharpFluid
                 }
               }

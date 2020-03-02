@@ -18,17 +18,10 @@ const Menu = ({ menu }: Props) => {
   return (
     <nav className={styles['menu']}>
       <ul className={styles['menu__list']}>
-        {categories.map((category) => (
-          <li
-            key={category.fieldValue}
-            className={styles['menu__list-item']}
-          >
-            <Link
-              to={`/category/${kebabCase(category.fieldValue)}/`}
-              className={styles['menu__list-item-link']}
-              activeClassName={styles['menu__list-item-link--active']}
-            >
-              {category.fieldValue}
+        {menu.map((item) => (
+          <li key={item.path} className={styles['menu__list-item']}>
+            <Link to={item.path} className={styles['menu__list-item-link']} activeClassName={styles['menu__list-item-link--active']}>
+              {item.label}
             </Link>
           </li>
         ))}
