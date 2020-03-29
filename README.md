@@ -1,28 +1,23 @@
 <h1 align="center">
-    <img alt="Lumen" title="Lumen" src="https://github.com/alxshelepenok/gatsby-starter-lumen/blob/gatsby-v2/.github/logo.png" width="140"> </br>
-    Lumen
+    yosi
 </h1>
 
 <h4 align="center">
   <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>を使用したブログを作成するための最小限の軽量モバイルファーストのスターター「gatsby-starter-lumen」をベースに作成しています。
 </h4>
 
-<p align="center">
-    <a target="_blank" href="https://circleci.com/gh/alxshelepenok/gatsby-starter-lumen"><img src="https://circleci.com/gh/alxshelepenok/gatsby-starter-lumen.svg?style=svg"></a> <a target="_blank" href="https://codecov.io/gh/alxshelepenok/gatsby-starter-lumen"><img src="https://codecov.io/gh/alxshelepenok/gatsby-starter-lumen/branch/master/graph/badge.svg"></a> <a target="_blank" href="https://www.codacy.com/app/alxshelepenok/gatsby-starter-lumen?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alxshelepenok/gatsby-starter-lumen&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/f7e27bb3a28a46a6b13453a02801c5c9"></a> <a target="_blank" href="https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen"><img src="https://img.shields.io/codeclimate/maintainability/alxshelepenok/gatsby-starter-lumen.svg"></a> <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Falxshelepenok%2Fgatsby-starter-lumen?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Falxshelepenok%2Fgatsby-starter-lumen.svg?type=shield"/></a>
-</p>
-
 ## Table of contents
-+ [Features](http://github.com/alxshelepenok/gatsby-starter-lumen#features)
-+ [Web Performance Tests](http://github.com/alxshelepenok/gatsby-starter-lumen#web-performance-tests)
-+ [Quick Start](http://github.com/alxshelepenok/gatsby-starter-lumen#quick-start)
-+ [Deploy with Netlify](http://github.com/alxshelepenok/gatsby-starter-lumen#deploy-with-netlify)
-+ [Folder Structure](http://github.com/alxshelepenok/gatsby-starter-lumen#folder-structure)
-+ [Related](http://github.com/alxshelepenok/gatsby-starter-lumen#related)
-+ [Contributors](http://github.com/alxshelepenok/gatsby-starter-lumen#contributors)
-+ [Backers](http://github.com/alxshelepenok/gatsby-starter-lumen#backers)
-+ [Sponsors](http://github.com/alxshelepenok/gatsby-starter-lumen#sponsors)
-+ [Credits](http://github.com/alxshelepenok/gatsby-starter-lumen#credits)
-+ [License](http://github.com/alxshelepenok/gatsby-starter-lumen#license)
++ [Features](https://github.com/yosipy/blog-kirima-maaya#features)
++ [Web Performance Tests](https://github.com/yosipy/blog-kirima-maaya#web-performance-tests)
++ [Quick Start](https://github.com/yosipy/blog-kirima-maaya#quick-start)
++ [Deploy with Netlify](https://github.com/yosipy/blog-kirima-maaya#deploy-with-netlify)
++ [Folder Structure](https://github.com/yosipy/blog-kirima-maaya#folder-structure)
++ [Related](https://github.com/yosipy/blog-kirima-maaya#related)
++ [Contributors](https://github.com/yosipy/blog-kirima-maaya#contributors)
++ [Backers](https://github.com/yosipy/blog-kirima-maaya#backers)
++ [Sponsors](https://github.com/yosipy/blog-kirima-maaya#sponsors)
++ [Credits](https://github.com/yosipy/blog-kirima-maaya#credits)
++ [License](https://github.com/yosipy/blog-kirima-maaya#license)
 
 ## Features
 + [Lost Grid](http://lostgrid.org).
