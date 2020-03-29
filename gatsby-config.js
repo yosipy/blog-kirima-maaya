@@ -212,3 +212,4 @@ module.exports = {
     'gatsby-plugin-optimize-svgs',
   ]
 };
+

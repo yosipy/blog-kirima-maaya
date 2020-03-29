@@ -6,8 +6,6 @@ draft: false
 ---
 ## 運営者情報
 
-### yosi
+### aaaa
 
-CG (Computer Graphics) やWebを中心としたプログラマー。
-
-mail : yosi.contact@gmail.com
+aaaa aaaa aaaa aaaa aaaa

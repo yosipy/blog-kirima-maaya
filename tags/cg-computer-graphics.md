@@ -1,4 +1,0 @@
----
-title: CG - Computer Graphics
----
-

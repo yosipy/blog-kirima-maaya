@@ -1,43 +1,43 @@
 'use strict';
 
 module.exports = {
-  url: 'https://codelabo.com',
+  url: 'https://blog-kirima-maaya',
   pathPrefix: '/',
-  title: 'CodeLabo',
-  subtitle: 'programmer',
+  title: 'blog-kirima-maaya',
+  subtitle: 'blog-kirima-maaya',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 32,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-XXXXXXXXXXX',
   useKatex: false,
   menu: [
     {
-      label: 'プログラミング',
-      path: '/category/プログラミング'
+      label: 'V',
+      path: '/category/V/'
     },
     {
-      label: 'ビジネス',
-      path: '/category/ビジネス'
+      label: 'category2',
+      path: '/category/category2/'
     },
     {
-      label: 'ブログ',
-      path: '/category/ブログ'
+      label: 'category3',
+      path: '/category/category3/'
     }
   ],
   author: {
-    name: 'yosi',
+    name: 'blog-kirima-maaya',
     photo: '/photo.jpg',
-    bio: 'programmer.',
+    bio: 'sample.',
     contacts: {
-      email: '',
+      email: '#',
       facebook: '#',
-      telegram: '#',
+      telegram: '',
       twitter: '#',
       github: '#',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
