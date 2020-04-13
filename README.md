@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>を使用したブログを作成するための最小限の軽量モバイルファーストのスターター「gatsby-starter-lumen」をベースに作成しています。
+  <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>を使用したブログを作成するための最小限の軽量モバイルファーストのスターター「 <a href="https://github.com/alxshelepenok/gatsby-starter-lumen">gatsby-starter-lumen</a>」をベースに作成しています。
 </h4>
 
 ## Table of contents
@@ -144,6 +144,8 @@ $ gatsby serve
 The MIT License (MIT)
 
 Copyright (c) 2020 yosi
+
+Base : Copyright (c) 2016-2020 Alexander Shelepenok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
